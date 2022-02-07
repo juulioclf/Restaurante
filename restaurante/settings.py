@@ -77,11 +77,11 @@ WSGI_APPLICATION = 'restaurante.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.path.join(BASE_DIR, 'postgresql'),
+        'NAME': 'alura_receita',
         'USER': 'postgres',
         'PASSWORD': '123456',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
+        'HOST': 'localhost',
+        # 'PORT': '5432',
     }
 }
 
